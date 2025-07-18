@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "lastname": "Dupont",
+      "firstname": "Jean",
+      "username": "jean.dupont",
+      "password": "password123"
+    },
+    {
+      "lastname": "Martin",
+      "firstname": "Marie",
+      "username": "marie.martin",
+      "password": "marie456"
+    },
+    {
+      "lastname": "Durand",
+      "firstname": "Pierre",
+      "username": "pierre.durand",
+      "password": "pierre789"
+    },
+    {
+      "lastname": "Bernard",
+      "firstname": "Sophie",
+      "username": "sophie.bernard",
+      "password": "sophie321"
+    }
+  ]
+}
