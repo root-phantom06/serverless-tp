@@ -165,16 +165,6 @@ export default function LoginForm() {
         )}
       </motion.button>
 
-      {/* Informations de test */}
-      <div className="mt-8 p-4 bg-black/20 backdrop-blur-sm rounded-lg">
-        <h4 className="text-white font-semibold mb-2">Comptes de test :</h4>
-        <div className="text-sm text-white/80 space-y-1">
-          <p>• jean.dupont / password123</p>
-          <p>• marie.martin / marie456</p>
-          <p>• pierre.durand / pierre789</p>
-          <p>• sophie.bernard / sophie321</p>
-        </div>
-      </div>
     </form>
   );
 }
