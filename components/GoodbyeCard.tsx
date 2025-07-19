@@ -39,7 +39,7 @@ export default function GoodbyeCard({ firstname }: GoodbyeCardProps) {
             transition={{ delay: 0.6, duration: 0.3 }}
             className="text-2xl font-bold text-gray-900 mb-2"
           >
-            Au revoir, {firstname}
+            Au revoir, mon pote {firstname}
           </motion.h3>
           
           <motion.p
