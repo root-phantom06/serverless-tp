@@ -22,13 +22,13 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '20.x'
+          node-version: "20.x"
 
       - name: Install dependencies and build
         run: |
           npm install
           npm run build
-          npm export
+          npm run export
 
       - name: Prepare deployment folder
         run: |
@@ -63,7 +63,7 @@ jobs:
       - name: Deploy to Azure Web App
         uses: azure/webapps-deploy@v3
         with:
-          app-name: 'kal-app'
-          slot-name: 'Production'
+          app-name: "kal-app"
+          slot-name: "Production"
           package: .
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_1E3D70A1EC114526939026E85D9AA5C8 }}
